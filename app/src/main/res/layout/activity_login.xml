@@ -20,11 +20,11 @@
 
         <!-- Email Label -->
 
-            <EditText android:id="@+id/etemail"
+            <EditText android:id="@+id/etmobile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:hint="Email" />
+                android:inputType="text"
+                android:hint="Mobile" />
 
         <!-- Password Label -->
 
@@ -42,7 +42,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:onClick="Get"
+            android:onClick="setSharedPreferences"
             android:text="Login"/>
 
         <TextView android:id="@+id/link_signup"
